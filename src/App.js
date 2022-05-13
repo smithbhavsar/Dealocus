@@ -1,9 +1,12 @@
 import React from 'react';
+import Products from './components/Products/Products';
+import Navbar from './components/Navbar/Navbar';
 
 function App(props) {
     return (
         <div>
-            <h1>Hello World</h1>
+            <Navbar/>
+            <Products/>
         </div>
     );
 }
